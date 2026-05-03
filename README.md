@@ -1,18 +1,56 @@
-# Salesforce DX Project: Next Steps
+🏥 OncoAssist – AI Patient Scheduling Agent
+📌 Overview
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+OncoAssist is an AI-powered Patient Scheduling Agent built on Salesforce to transform patient interaction in oncology care. It acts as a Digital Front Door for Onco Global, enabling patients to access healthcare services quickly without relying on overloaded contact centers.
 
-## How Do You Plan to Deploy Your Changes?
+With over 450 daily calls handled by just 7 agents, Onco Global faces delays, inefficiencies, and missed appointments. OncoAssist solves these challenges using AI-driven automation and self-service capabilities.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+🎯 Problem Statement
+Long patient wait times due to high call volume
+Difficulty in managing appointments across multiple hospitals
+High no-show rates due to lack of reminders and engagement
+💡 Solution
 
-## Configure Your Salesforce DX Project
+OncoAssist provides a self-service AI agent that allows patients to:
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Book, modify, and cancel appointments
+Discover doctors and departments
+Get hospital and treatment information
+Receive automated support without human intervention
+⚙️ Key Features
+🤖 AI Patient Agent (Agentforce)
+Conversational interface for patient queries
+Natural language understanding
+Executes actions like booking and cancellations
+🌐 Web-Based Self-Service Portal
+Built using Experience Cloud
+Available 24/7 for patient access
+🏥 Specialty & Location Discovery
+Information about oncology services
+Hospital locations across multiple centers
+👨‍⚕️ Doctor & Department Search
+Find doctors by specialty or location
+Browse departments easily
+📅 Appointment Management
+Book appointments
+Modify appointments
+Cancel appointments
+🔄 Flexible Booking
+Book with a specific doctor
+Or book under a department
+⚠️ No-Show Reduction
+Improves hospital efficiency
+🛠️ Tech Stack
+Salesforce Health Cloud – Patient & provider data
+Agentforce – AI-powered agent
+Salesforce Flow – Automation
+Apex – Custom logic 
+Experience Cloud – Frontend portal
+Data Cloud – Insights & personalization
+GitHub – Version control
+🧪 How It Works
+Patient opens the web portal
+Interacts with the AI agent
+Searches for doctor/department
+Books or manages appointment
+Receives automated confirmations
